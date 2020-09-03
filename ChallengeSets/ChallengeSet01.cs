@@ -14,6 +14,7 @@ namespace ChallengeSets
             {
                 return false;
             }
+            // or refactor return(num1 ==num2) ? true : false;
         }
 
         public double Subtract(double minuend, double subtrahend)
@@ -21,23 +22,24 @@ namespace ChallengeSets
             //throw new NotImplementedException();
 
             double sum = 0;
-            sum = minuend - subtrahend
+            sum = minuend - subtrahend;
             return sum;
 
+           
         }
 
         public int Add(int number1, int number2)
         {
             // throw new NotImplementedException();
-            double sum = 0;
-            sum = minuend + subtrahend
+            int sum = 0;
+            sum = number1 + number2;
             return sum;
         }
 
         public int GetSmallestNumber(int number1, int number2)
         {
             //throw new NotImplementedException();
-            if (number1 < number)
+            if (number1 < number2)
             {
                 return number1;
             } else
