@@ -65,9 +65,10 @@ namespace ChallengeSets
 
         }
 
-        public string GetHey()
+        public string GetHey(name)
         {
-            return "HEY!";
+            
+            return $"HEY!, {name}";
         }
     }
 }
